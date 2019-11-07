@@ -1,5 +1,7 @@
 package com.geffre.model;
 
+import com.geffre.error.SolveError;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -58,7 +60,7 @@ public class SudokuCase {
         this.possibleFills.put(wrongAnswer, false);
     }
 
-    public void validateAnswer(){
+    public void validateAnswer() throws SolveError {
         List<Integer> possibleAnswers = new ArrayList<>();
         for (Integer possibleAnswer : possibleFills.keySet()){
             if (possibleFills.get(possibleAnswer)){
@@ -67,6 +69,9 @@ public class SudokuCase {
         }
         if (possibleAnswers.size()==1){
             this.setAnswers(possibleAnswers.get(0));
+        }
+        if (possibleAnswers.size()==0){
+            throw new SolveError("No solution available on this cell.");
         }
     }
 }

@@ -1,5 +1,6 @@
 package com.geffre.app;
 
+import com.geffre.error.SolveError;
 import com.geffre.model.SudokuCase;
 import com.geffre.model.SudokuGrid;
 import com.geffre.solver.SudokuSolver;
@@ -39,7 +40,7 @@ public class Main {
             SudokuSolver solver = new SudokuSolver(grid);
             solver.solve();
         }
-        catch (IOException e)
+        catch (IOException | SolveError e)
         {
             e.printStackTrace();
         }
