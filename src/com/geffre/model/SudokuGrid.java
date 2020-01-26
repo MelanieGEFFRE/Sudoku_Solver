@@ -3,6 +3,7 @@ package com.geffre.model;
 import com.geffre.error.SolveError;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class SudokuGrid {
@@ -105,5 +106,25 @@ public class SudokuGrid {
             }
         }
         return sb.toString();
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        SudokuGrid that = (SudokuGrid) o;
+        for (int i = 0; i<grid.length;i++){
+            for (int j = 0; j<grid[i].length;j++){
+                if (!that.grid[i][j].equals(this.grid[i][j])){
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        return Arrays.hashCode(grid);
     }
 }

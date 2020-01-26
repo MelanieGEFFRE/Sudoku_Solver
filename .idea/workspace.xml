@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1cbedee3-bf6d-4f4e-bae9-8f38412ed703" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/geffre/error/SolveError.java" afterDir="false" />
+    <list default="true" id="e8e3e11b-58e8-4293-b991-2a0a6b8c69db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sudoku_solver.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Sudoku_solver/com/geffre/error/SolveError.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Sudoku_solver/files/sudoku.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/geffre/statesave/Caretaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/geffre/statesave/Originator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/geffre/statesave/StateSave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/geffre/statesave/StateSaver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/geffre/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/geffre/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sudoku_solver/META-INF/Sudoku_solver.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sudoku_solver/com/geffre/app/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sudoku_solver/com/geffre/app/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sudoku_solver/com/geffre/model/SudokuCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sudoku_solver/com/geffre/model/SudokuCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sudoku_solver/com/geffre/model/SudokuGrid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sudoku_solver/com/geffre/model/SudokuGrid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sudoku_solver/com/geffre/solver/SudokuSolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sudoku_solver/com/geffre/solver/SudokuSolver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/geffre/model/SudokuCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/geffre/model/SudokuCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/geffre/model/SudokuGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/geffre/model/SudokuGrid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/geffre/solver/SudokuSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/geffre/solver/SudokuSolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/files/sudoku_to_solve.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/sudoku_to_solve.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,13 +36,25 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1T1VMeCnq1c554a31IML4rgxJEl" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -46,10 +68,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.geffre.app.Main" />
-      <module name="Sudoku_solver" />
+      <module name="sudoku_solver" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.geffre.app.*" />
@@ -60,19 +82,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.geffre.Main" />
-      <module name="Sudoku_solver" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -94,11 +106,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

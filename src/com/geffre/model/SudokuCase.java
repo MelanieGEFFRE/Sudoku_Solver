@@ -74,4 +74,12 @@ public class SudokuCase {
             throw new SolveError("No solution available on this cell.");
         }
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        SudokuCase that = (SudokuCase) o;
+        return that.answers==this.answers;
+    }
 }
