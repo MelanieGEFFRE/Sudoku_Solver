@@ -1,5 +1,6 @@
 package com.geffre.solver;
 
+import com.geffre.error.SolveError;
 import com.geffre.model.SudokuGrid;
 
 public class SudokuSolver {
@@ -10,7 +11,7 @@ public class SudokuSolver {
         gridToSolve = grid;
     }
 
-    public void solve(){
+    public void solve() throws SolveError {
         while (!gridToSolve.isGridSolved()){
             for (int line=0;line<9;line++){
                 for (int col=0;col<9;col++){
